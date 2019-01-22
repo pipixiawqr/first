@@ -20,9 +20,9 @@ function _timeout($url){
 //连接数据库，将数据导入数据库中
 function _mysql($sql){
 	$host="localhost";
-	$user="root";
-	$passwd="wuqianru123.";
-	$dbname="test";
+	$user="******";
+	$passwd="**********";
+	$dbname="****";
 	$charset="utf8";
 	$link=mysql_connect($host,$user,$passwd);
 	mysql_select_db($dbname);
