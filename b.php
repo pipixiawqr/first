@@ -30,9 +30,9 @@ function _timeout($headers,$url,$post_data){
 //连接数据库
 function _mysql($sql){
 	$host="localhost";
-	$user="root";
-	$passwd="wuqianru123.";
-	$dbname="test";
+	$user="******";
+	$passwd="**********";
+	$dbname="****";
 	$charset="utf8";
 	$link=mysql_connect($host,$user,$passwd);
 	mysql_select_db($dbname);
