@@ -43,7 +43,7 @@ function _mysql($sql){
 }
 
 
-$url="http://www.santongit.com/member.php?mod=logging&action=login&loginsubmit=yes&handlekey=login";
+$url="http://www.******.com/member.php?mod=logging&action=login&loginsubmit=yes&handlekey=login";
 $headers=array('Content-Type'=>'Content-Type: application/x-www-form-urlencoded');
 
 for ($i=0; $i <2842; $i++) { 
