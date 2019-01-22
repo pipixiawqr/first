@@ -34,7 +34,7 @@ function _mysql($sql){
 
 for ($i=110058; $i <110080 ; $i++) 
 { 
-	$url="http://www.santongit.com/home.php?mod=space&uid=$i&do=profile&from=space";
+	$url="http://www.*********.com/home.php?mod=space&uid=$i&do=profile&from=space";
 	$res=_timeout($url);
 	preg_match_all("/<h2 class=\"mt\">(.*?)<\/h2>.*?<a.*?ac=usergroup.*?target=\"_blank\">.*?(VIP).*?<\/a>/is", $res,$matchs);		
 		if (!empty($matchs[1])) {
